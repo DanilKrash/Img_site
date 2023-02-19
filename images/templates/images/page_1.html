@@ -1,6 +1,6 @@
 {% extends 'root.html' %}
 {% block content %}
-{% for img im imgs %}
+{% for img in imgs %}
 
     <a href="{% url 'images:detail' img.id %}">
         <div>
